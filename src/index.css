@@ -45,11 +45,15 @@
 
   --color-background: var(--color-sand);
   --color-foreground: var(--color-stone);
+  --color-button: var(--color-stone);
+  --color-button-foreground: var(--color-sand);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--color-stone);
     --color-foreground: var(--color-sand);
+    --color-button: var(--color-sand);
+    --color-button-foreground: var(--color-stone);
   }
 }
