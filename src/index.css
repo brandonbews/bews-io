@@ -11,15 +11,6 @@
 }
 @font-face {
   font-family: 'B Font';
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  src:
-    url('/fonts/sof-sub-reg-ital.woff2') format('woff2'),
-    url('/fonts/sof-sub-reg-ital.woff') format('woff');
-}
-@font-face {
-  font-family: 'B Font';
   font-weight: 700;
   font-style: normal;
   font-display: swap;

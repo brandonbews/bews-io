@@ -5,15 +5,15 @@ import SocialButton from './components/SocialButton'
 
 function App() {
   return (
-    <div className="p-6 lg:p-8">
-      <header>
+    <div className="grid min-h-dvh grid-rows-1 p-6 lg:p-8">
+      <header className="col-start-1 row-start-1 self-start">
         <div className="flex h-8 items-center gap-3 lg:h-10 lg:gap-4">
           <Logo />
           <h1 className="font-bold lg:text-lg">Brandon Bews</h1>
         </div>
       </header>
-      <main className="-mt-10 flex h-full min-h-screen items-center justify-center lg:-mt-14">
-        <section className="max-w-xl space-y-6 lg:max-w-2xl xl:max-w-3xl">
+      <main className="col-start-1 row-start-1 grid place-items-center">
+        <div className="max-w-xl space-y-6 lg:max-w-2xl xl:max-w-3xl">
           <div className="mb-8 space-y-4 md:text-lg lg:text-xl xl:mb-12 xl:text-2xl">
             <h2 className="mb-4 -ml-px text-4xl font-bold md:mb-5 md:-ml-0.5 md:text-5xl lg:mb-6 lg:-ml-0.75 lg:text-6xl xl:mb-8 xl:-ml-1 xl:text-7xl">
               Hello.
@@ -36,7 +36,7 @@ function App() {
               icon={<LinkedinIcon />}
             />
           </div>
-        </section>
+        </div>
       </main>
     </div>
   )
