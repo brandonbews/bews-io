@@ -1,6 +1,4 @@
-# Brandon's Very Minimal Personal Website
-
-Just a small static site. Nothing fancy. Using React because I might expand into other content later.
+# Just A Very Minimal Personal Website
 
 ## Stack
 
