@@ -18,11 +18,15 @@ function App() {
             <h2 className="mb-4 -ml-px text-4xl font-bold md:mb-5 md:-ml-0.5 md:text-5xl lg:mb-6 lg:-ml-0.75 lg:text-6xl xl:mb-8 xl:-ml-1 xl:text-7xl">
               Hello.
             </h2>
-            <p className="leading-relaxed">
-              My name is Brandon Bews. I’m a software engineer designing and
-              building products and agentic experiences end-to-end. Currently
-              working as a senior software engineer at Algolia.
-            </p>
+            <div className="space-y-8">
+              <p className="leading-relaxed">
+                My name is Brandon Bews. I’m a software engineer designing and
+                building products and agentic experiences end to end.
+              </p>
+              <p className="leading-relaxed">
+                Currently a senior software engineer at Algolia.
+              </p>
+            </div>
           </div>
           <div className="flex items-center gap-3 md:gap-4 xl:gap-6">
             <SocialButton
